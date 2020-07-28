@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="htecsun-web" />
+        <module name="htecsun-quartz" />
+        <module name="htecsun-strategy" />
+        <module name="htecsun-crud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="htecsun-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="htecsun-crud" options="-parameters" />
+      <module name="htecsun-quartz" options="-parameters" />
+      <module name="htecsun-strategy" options="-parameters" />
+      <module name="htecsun-ui" options="-parameters" />
+      <module name="htecsun-web" options="-parameters" />
+    </option>
+  </component>
+</project>

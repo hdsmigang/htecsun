@@ -1,0 +1,5 @@
+# Project exclude paths
+/htecsun-crud/target/
+/htecsun-quartz/target/
+/htecsun-strategy/target/
+/htecsun-web/target/
